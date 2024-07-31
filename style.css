@@ -5,7 +5,7 @@
     margin: 0 auto;
     margin-top:45px;
     border-radius:20px;
-    transition: width 0.2s;
+    transition: width 0.5s;
 }
 .main-container:hover{
     width: 600px;

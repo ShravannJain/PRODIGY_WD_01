@@ -1,26 +1,31 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-image: url("idk3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
+
 #logo {
     border-radius: 20px;
     color: white;
 }
+
 .logo-bar {
-    padding: 40px ;
+    padding: 40px;
     color: white;
     position: absolute;
     top: -50px;
     left: -230px;
-   
+
 }
-.logo-bar a{
-    position: absolute  ;
+
+.logo-bar a {
+    position: absolute;
     top: 55px;
     left: 100px;
     color: white;
@@ -29,7 +34,7 @@ body{
     text-decoration: none;
 }
 
-.root-container{
+.root-container {
     height: 1000px;
     width: 80%;
     margin: 0 auto;
@@ -44,7 +49,7 @@ body{
 .nav-container {
     position: sticky;
     top: 20px;
-    
+
     height: 35px;
     width: 60%;
     /* border: 1px solid rgb(255, 255, 255); */
@@ -54,23 +59,54 @@ body{
     border-radius: 5px;
 }
 
-.nav-tools li{
+.nav-tools li {
     list-style: none;
     float: left;
-   margin-left: 20px;
+    margin-left: 20px;
 }
-.fa,.fa-home,.idk{
+
+.fa,
+.fa-home,
+.idk {
     height: 15px;
     padding: 10px 10px;
     /* border: 1px solid black; */
     font-weight: 600;
     width: auto;
     transition: background-color 0.4s;
-    color: white;
+    color: rgba(255, 255, 255, 0);
     border-radius: 5px;
+
 }
 
-.idk:hover{
-    background-color: rgb(36, 14, 14);
+.idk:hover {
+
+    background-color: rgb(255, 255, 255);
 }
 
+.reg_btn {
+    float: left;
+    position: absolute;
+    left: 105%; 
+    padding: 6px;
+    border-style: none;
+    border-radius: 3px;
+    background: none;
+}
+
+.reg_btn:hover {
+    backdrop-filter: blur(40px);
+
+}
+
+
+#textbox {
+
+    border-radius: 3px;
+    box-shadow: -20px 0 10px -20px rgba(0, 0, 0, 0.45) inset, 20px 0 10px -20px rgba(0, 0, 0, 0.45) inset;
+    border-style: none;
+    margin-top: 4px;
+    padding-top: 11px;
+    backdrop-filter: blur(40px);
+    background: none;
+}

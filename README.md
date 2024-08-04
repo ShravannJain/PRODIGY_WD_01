@@ -1,2 +1,4 @@
-<center>Prodigy Internship project</center>
-![image](https://github.com/user-attachments/assets/d71a7945-ea85-4dab-b6a9-8becf9cf5669)
+<h1>Simple and interactive landing page</h1>
+<p>Here is the preview of the landing page</p>
+
+![Screenshot 2024-08-04 121517](https://github.com/user-attachments/assets/79b532d9-b84c-40e6-8a34-8f249a0f85f2)
